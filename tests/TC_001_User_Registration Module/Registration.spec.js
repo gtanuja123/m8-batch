@@ -47,3 +47,8 @@ test("registration",async({page})=>
     console.log(await page.locator('[class="result"]').textContent())
 
 })
+
+test("new code for git",async({page})=>
+{
+console.log("tan")
+})
